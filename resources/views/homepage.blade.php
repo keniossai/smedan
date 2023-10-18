@@ -17,11 +17,11 @@
 			<div class="container position-relative">
 				<div class="row">
 					<div class="col-xl-6 col-lg-7 ms-auto">
-						<h1 class="hero-heading d-inline-block position-relative wow fadeInUp">Your business <br>Consultant & <br>Solution.</h1>
+						<h1 class="hero-heading d-inline-block position-relative wow fadeInUp">Got a <br>Brilliant Idea?</h1>
 						<p class="text-xl text-white pt-35 pb-25 wow fadeInUp" data-wow-delay="0.1s">Empowering businesses with innovative strategies and actionable recommendations</p>
 						<a href="contact.html" class="btn-two icon-link wow fadeInUp" data-wow-delay="0.2s">
-							<span>Let’s Talk</span>
-							<img src="images/lazy.svg" data-src="images/icon/icon_02.svg" alt="" class="lazy-img icon ms-2">
+							<span>Learn More</span>
+							<img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_02.svg" alt="" class="lazy-img icon ms-2">
 						</a>
 					</div>
 				</div>
@@ -47,7 +47,7 @@
 							<h3 class="fw-bold">1.75 million+</h3>
 							<p class="text-md m0">Worldwide clients</p>
 						</div>
-						<img src="images/lazy.svg" data-src="images/assets/screen_01.png" alt="" class="lazy-img screen me-xxl-5">
+						<img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/assets/screen_01.png" alt="" class="lazy-img screen me-xxl-5">
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,7 @@
 					<div class="row">
 						<div class="col-lg-4 wow fadeInUp">
 							<div class="card-style-one d-flex w-100 mb-35">
-								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="images/lazy.svg" data-src="images/icon/icon_03.svg" alt="" class="lazy-img"></div>
+								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_03.svg" alt="" class="lazy-img"></div>
 								<div class="text ps-4">
 									<h4 class="fw-bold">Low Fees</h4>
 									<p class="pe-xl-4">cupidatat non proident, sunt in culpa qui officia deserunt</p>
@@ -76,7 +76,7 @@
 						</div>
 						<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
 							<div class="card-style-one d-flex w-100 mb-35">
-								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="images/lazy.svg" data-src="images/icon/icon_04.svg" alt="" class="lazy-img"></div>
+								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_04.svg" alt="" class="lazy-img"></div>
 								<div class="text ps-4">
 									<h4 class="fw-bold">Expert Advisor</h4>
 									<p class="pe-xl-4">Elit esse cillum dolore eu fugiat nulla pariatur</p>
@@ -86,7 +86,7 @@
 						</div>
 						<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="card-style-one d-flex w-100 mb-35">
-								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="images/lazy.svg" data-src="images/icon/icon_05.svg" alt="" class="lazy-img"></div>
+								<div class="icon tran3s rounded-circle d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_05.svg" alt="" class="lazy-img"></div>
 								<div class="text ps-4">
 									<h4 class="fw-bold">Effective Support</h4>
 									<p class="pe-xl-4">quis nostrud exerct ullamo ea nisi ut aliqui com dolor</p>
