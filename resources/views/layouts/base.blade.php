@@ -255,7 +255,7 @@
 									<li><a href="#">Cookies</a></li>
 									<li><a href="#">Contact Us</a></li>
 								</ul>
-								<div class="copyright me-xl-4 lg-mt-10 order-lg-first">Copyright @2023 babun inc.</div>
+								<div class="copyright me-xl-4 lg-mt-10 order-lg-first"> &copy;2023 SMEDAN. All Rights Reserved</div>
 							</div>
 						</div>
 					</div>
