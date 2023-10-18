@@ -10,8 +10,8 @@
 		<div class="hero-banner-one pt-225 xl-pt-200 lg-pt-150 pb-150 lg-pb-100 position-relative">
 			<div class="hero-slider-one m0">
 				<div class="item m0"><div class="hero-img" style="background-image: url({{ asset('assets/images/media/img_01.jpg') }});"></div></div>
-				<div class="item m0"><div class="hero-img" style="background-image: url({{ asset('assets/images/media/img_02.jpg') }});"></div></div>
-				<div class="item m0"><div class="hero-img" style="background-image: url({{ asset('assets/images/media/img_03.jpg') }});"></div></div>
+				{{-- <div class="item m0"><div class="hero-img" style="background-image: url({{ asset('assets/images/media/img_02.jpg') }});"></div></div>
+				<div class="item m0"><div class="hero-img" style="background-image: url({{ asset('assets/images/media/img_03.jpg') }});"></div></div> --}}
 			</div>
 			<!-- /.hero-slider-one -->
 			<div class="container position-relative">
@@ -44,8 +44,8 @@
 				<div class="col-md-6">
 					<div class="ps-xl-5 ps-md-4 pe-xxl-5 d-flex align-items-center justify-content-between">
 						<div>
-							<h3 class="fw-bold">1.75 million+</h3>
-							<p class="text-md m0">Worldwide clients</p>
+							<h3 class="fw-bold">37 million+</h3>
+							<p class="text-md m0">MSMEs Worldwide</p>
 						</div>
 						<img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/assets/screen_01.png" alt="" class="lazy-img screen me-xxl-5">
 					</div>
@@ -164,26 +164,30 @@
 				<div class="row align-items-center">
 					<div class="col-xl-5 col-lg-6 wow fadeInLeft">
 						<div class="title-one">
-							<div class="upper-title">About us</div>
-							<h2>15k+ Client using Our Services.</h2>
+							<div class="upper-title">Smedan Mandate</div>
+							{{-- <h2>15k+ Client using Our Services.</h2> --}}
 						</div>
 						<!-- /.title-one -->
-						<p class="text-lg mt-45 lg-mt-30 mb-35 lg-mb-20">Your success is our mission. As business advisors, we offer expert guidance, unlocking your potential for growth and profitability</p>
+						<p class="text-sm mt-45 lg-mt-30 mb-35 lg-mb-20">The mandate of SMEDAN as contained in the enabling Act can be summarized as follows:
+                            Stimulating, monitoring and coordinating the development of the MSMEs sub-sector;
+                            Initiating and articulating policy ideas for small and medium enterprises growth and development;
+                            Promoting and facilitating development programmes, instruments and support services to accelerate the development and modernization of  MSME operations...</p>
 						<div class="d-inline-flex flex-wrap align-items-center">
 							<a href="about-us-v1.html" class="btn-four mt-15 me-4">More About us</a>
 							<a href="contact.html" class="btn-three icon-link mt-15">
-								<span>Request a Callback</span>
+								<span>Smedan Guilding Principles</span>
 								<img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img icon ms-1">
 							</a>
 						</div>
 					</div>
 					<div class="col-xl-7 col-lg-6 wow fadeInRight">
 						<div class="media-list-item ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-end">
-							<ul class="style-none">
-								<li>Mobile app easy management & access</li>
-								<li>Ton’s of features for handle the card easily</li>
-								<li>Strong security system.</li>
-							</ul>
+							{{-- <ul class="style-none" style="font-size: 20px;">
+								<li>Outreach</li>
+								<li>Sustainability: We deliverately create exit strategies, whenever necessary to avoid over-dependence on subsidy</li>
+								<li>Impact: We are committed to delivering measurable results</li>
+								<li>Efficiency</li>
+							</ul> --}}
 						</div>
 					</div>
 				</div>
@@ -205,7 +209,7 @@
 							<div class="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
 								<img src="images/lazy.svg" data-src="images/icon/icon_10.svg" alt="" class="lazy-img icon">
 								<h4 class="fw-bold mt-40 sm-mt-20 mb-20">Our Mission</h4>
-								<p>Optimize expense tracking across platforms, & product lines using multiple cards.</p>
+								<p>To facilitate the access of micro, small and medium entrepreneurs and investors to all resources required for their development. Justification for our existence.... </p>
 							</div>
 							<!-- /.card-style-three -->
 						</div>
@@ -214,15 +218,15 @@
 								<div class="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
 									<img src="images/lazy.svg" data-src="images/icon/icon_11.svg" alt="" class="lazy-img icon">
 									<h4 class="fw-bold mt-40 sm-mt-20 mb-20">Our company vision.</h4>
-									<p>Optimize expense tracking across platforms, & product lines using multiple cards.</p>
+									<p>To establish a structured and efficient micro, small and medium enterprises sector that will enhance sustainable economic development of Nigeria.</p>
 								</div>
 								<!-- /.card-style-three -->
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="ps-lg-5 sm-pb-30 sm-pt-30">
-								<div class="numb fw-500"><span class="counter">13</span>+</div>
-								<p class="m0">Years Experience <br> with proud.</p>
+								<div class="numb fw-500"><span class="counter">20</span></div>
+								<p class="m0">Years of service </p>
 							</div>
 						</div>
 					</div>
@@ -232,7 +236,7 @@
 		<!-- /.block-feature-two -->
 
 
-
+{{-- 
 		<!--
 		=====================================================
 			BLock Feature Three
@@ -559,7 +563,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- /.faq-section-one -->
+		<!-- /.faq-section-one --> --}}
 
 
 		<!--
