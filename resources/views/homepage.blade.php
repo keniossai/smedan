@@ -61,7 +61,7 @@
 		==============================================
 		-->
 		<div class="block-feature-one position-relative pt-75">
-			<div class="upper-wrapper mb-110 lg-mb-80">
+			{{-- <div class="upper-wrapper mb-110 lg-mb-80">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 wow fadeInUp">
@@ -96,7 +96,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --}}
 			<!-- /.upper-wrapper -->
 
 			<div class="container">
@@ -113,8 +113,8 @@
 						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp">
 							<div class="card-style-two vstack tran3s w-100 mt-30">
 								<img src="images/lazy.svg" data-src="images/icon/icon_06.svg" alt="" class="lazy-img icon me-auto">
-								<h4 class="fw-bold mt-30 mb-25">Expense Report</h4>
-								<p class="mb-20">Maximize convenience by paying for ads, subscriptions, and inventory with Mastercard®.</p>
+								<h4 class="fw-bold mt-30 mb-25">Cybersecurity SME Tool Kit</h4>
+								<p class="mb-20">Protect your business from cyber threats with free cyber security tools</p>
 								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
 							</div>
 							<!-- /.card-style-two -->
@@ -122,8 +122,8 @@
 						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.1s">
 							<div class="card-style-two vstack tran3s w-100 mt-30">
 								<img src="images/lazy.svg" data-src="images/icon/icon_07.svg" alt="" class="lazy-img icon me-auto">
-								<h4 class="fw-bold mt-30 mb-25">Tax Preparation</h4>
-								<p class="mb-20">Use receiving accounts in a growing number of currencies and get paid like a local.</p>
+								<h4 class="fw-bold mt-30 mb-25">SME DIGITAL ACADEMY</h4>
+								<p class="mb-20">Boost your skill and knowledge for successful business</p>
 								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
 							</div>
 							<!-- /.card-style-two -->
@@ -131,21 +131,21 @@
 						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s">
 							<div class="card-style-two vstack tran3s w-100 mt-30">
 								<img src="images/lazy.svg" data-src="images/icon/icon_08.svg" alt="" class="lazy-img icon me-auto">
-								<h4 class="fw-bold mt-30 mb-25">Book keeping</h4>
-								<p class="mb-20">Use receiving accounts in a growing number of currencies and get paid like a local.</p>
+								<h4 class="fw-bold mt-30 mb-25">MSME MASS Registration</h4>
+								<p class="mb-20">MSME MASS Registration</p>
 								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
 							</div>
 							<!-- /.card-style-two -->
 						</div>
 					</div>
 
-					<div class="section-subheading sm-mt-40">
+					{{-- <div class="section-subheading sm-mt-40">
 						<p class="text-lg">Inciddnt ut labore et dolor magna aliu. enim ad mim venam, quis nostru </p>
 						<a href="service-v1.html" class="btn-three icon-link">
 							<span>See All Services</span>
 							<img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img icon ms-1">
 						</a>
-					</div>
+					</div> --}}
 					<!-- /.section-subheading -->
 				</div>
 			</div>
