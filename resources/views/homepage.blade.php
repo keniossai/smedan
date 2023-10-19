@@ -60,6 +60,7 @@
 			BLock Feature One
 		==============================================
 		-->
+
 		<div class="block-feature-one position-relative pt-75">
 			{{-- <div class="upper-wrapper mb-110 lg-mb-80">
 				<div class="container">
@@ -109,6 +110,7 @@
 							<!-- /.title-one -->
 						</div>
 					</div>
+
 					<div class="row justify-content-center">
 						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp">
 							<div class="card-style-two vstack tran3s w-100 mt-30">
@@ -133,6 +135,33 @@
 								<img src="images/lazy.svg" data-src="images/icon/icon_08.svg" alt="" class="lazy-img icon me-auto">
 								<h4 class="fw-bold mt-30 mb-25">MSME MASS Registration</h4>
 								<p class="mb-20">MSME MASS Registration</p>
+								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
+							</div>
+							<!-- /.card-style-two -->
+						</div>
+						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s">
+							<div class="card-style-two vstack tran3s w-100 mt-30">
+								<img src="images/lazy.svg" data-src="images/icon/icon_08.svg" alt="" class="lazy-img icon me-auto">
+								<h4 class="fw-bold mt-30 mb-25">CREDIT INFORMATION PORTAL</h4>
+								<p class="mb-20">Get access to financial information to get your desired destinations faster</p>
+								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
+							</div>
+							<!-- /.card-style-two -->
+						</div>
+						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s">
+							<div class="card-style-two vstack tran3s w-100 mt-30">
+								<img src="images/lazy.svg" data-src="images/icon/icon_08.svg" alt="" class="lazy-img icon me-auto">
+								<h4 class="fw-bold mt-30 mb-25">LATEST NEWS UPDATES</h4>
+								<p class="mb-20">See our latest news updates</p>
+								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
+							</div>
+							<!-- /.card-style-two -->
+						</div>
+						<div class="col-lg-4 col-md-6 d-flex wow fadeInUp" data-wow-delay="0.2s">
+							<div class="card-style-two vstack tran3s w-100 mt-30">
+								<img src="images/lazy.svg" data-src="images/icon/icon_08.svg" alt="" class="lazy-img icon me-auto">
+								<h4 class="fw-bold mt-30 mb-25">SMEDAN PARTNERS WITH IMSME</h4>
+								<p class="mb-20">See our partners</p>
 								<a href="service-details.html" class="arrow-btn tran3s mt-auto stretched-link"><img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt="" class="lazy-img"></a>
 							</div>
 							<!-- /.card-style-two -->
@@ -181,14 +210,7 @@
 						</div>
 					</div>
 					<div class="col-xl-7 col-lg-6 wow fadeInRight">
-						<div class="media-list-item ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-end">
-							{{-- <ul class="style-none" style="font-size: 20px;">
-								<li>Outreach</li>
-								<li>Sustainability: We deliverately create exit strategies, whenever necessary to avoid over-dependence on subsidy</li>
-								<li>Impact: We are committed to delivering measurable results</li>
-								<li>Efficiency</li>
-							</ul> --}}
-						</div>
+						<div class="media-list-item ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-end"></div>
 					</div>
 				</div>
 			</div>
@@ -207,7 +229,7 @@
 					<div class="row align-items-center">
 						<div class="col-md-4">
 							<div class="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
-								<img src="images/lazy.svg" data-src="images/icon/icon_10.svg" alt="" class="lazy-img icon">
+								<img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_10.svg" alt="" class="lazy-img icon">
 								<h4 class="fw-bold mt-40 sm-mt-20 mb-20">Our Mission</h4>
 								<p>To facilitate the access of micro, small and medium entrepreneurs and investors to all resources required for their development. Justification for our existence.... </p>
 							</div>
@@ -216,7 +238,7 @@
 						<div class="col-md-5">
 							<div class="border-line h-100 ps-lg-5 pe-lg-5 ps-md-3 pe-md-3">
 								<div class="card-style-three pt-45 md-pt-30 pb-35 sm-pb-30">
-									<img src="images/lazy.svg" data-src="images/icon/icon_11.svg" alt="" class="lazy-img icon">
+									<img src="{{ asset('assets/images/lazy.svg') }}" data-src="images/icon/icon_11.svg" alt="" class="lazy-img icon">
 									<h4 class="fw-bold mt-40 sm-mt-20 mb-20">Our company vision.</h4>
 									<p>To establish a structured and efficient micro, small and medium enterprises sector that will enhance sustainable economic development of Nigeria.</p>
 								</div>
@@ -236,7 +258,7 @@
 		<!-- /.block-feature-two -->
 
 
-{{-- 
+{{--
 		<!--
 		=====================================================
 			BLock Feature Three
@@ -571,7 +593,7 @@
 			Blog Section One
 		=====================================================
 		-->
-		<div class="blog-section-one position-relative mt-150 lg-mt-80 pt-120 lg-pt-80">
+		<div class="blog-section-one position-relative mt-150 lg-mt-80 pt-120 lg-pt-80 mb-5">
 			<div class="container">
 				<div class="position-relative">
 					<div class="title-one mb-20 lg-mb-10">
@@ -587,7 +609,7 @@
 									<div class="post-info"><span class="fw-500 text-dark">Rashed Ka -</span> 18 Jul 2023</div>
 									<a href="blog-details.html" class="mt-15"><h4 class="tran3s blog-title">Wise Spending Habits, 13 Tips for Maximizing Your Money.</h4></a>
 								</div>
-								<figure class="post-img position-relative d-flex justify-content-end align-items-end m0" style="background-image: url(images/blog/blog_img_01.jpg);">
+								<figure class="post-img position-relative d-flex justify-content-end align-items-end m0" style="background-image: url({{ asset('assets/images/blog/blog_img_01.jpg') }});">
 									<a href="blog-details.html" class="round-btn stretched-link rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
 								</figure>
 							</article>
@@ -599,7 +621,7 @@
 									<div class="post-info"><span class="fw-500 text-dark">Mark Joe -</span> 09 Feb 2023</div>
 									<a href="blog-details.html" class="mt-15"><h4 class="tran3s blog-title">Lessons from Visionary Leaders for Success in Business.</h4></a>
 								</div>
-								<figure class="post-img position-relative d-flex justify-content-end align-items-end m0" style="background-image: url(images/blog/blog_img_02.jpg);">
+								<figure class="post-img position-relative d-flex justify-content-end align-items-end m0" style="background-image: url({{ asset('assets/images/blog/blog_img_02.jpg') }});">
 									<a href="blog-details.html" class="round-btn stretched-link rounded-circle d-flex align-items-center justify-content-center tran3s"><i class="bi bi-arrow-up-right"></i></a>
 								</figure>
 							</article>
