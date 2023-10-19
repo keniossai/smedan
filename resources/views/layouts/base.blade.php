@@ -133,74 +133,24 @@
 
         @yield('content')
 
-        <!--
-		=====================================================
-			Footer One
-		=====================================================
-		-->
 		<div class="footer-one">
-			<div class="container">
-				<div class="inner-wrapper">
-					<div class="row justify-content-between">
-						<div class="col-xl-4 col-md-3 footer-intro mb-30">
-							<div class="logo mb-15">
-								<a href="index.html" class="d-inline-block d-lg-none">
-									<img src="images/logo/logo_01.svg" alt="">
-								</a>
-							</div>
-							<!-- logo -->
-							<p class="text-white lh-sm mb-35">Top-rated <span class="opacity-50">business <br> consultancy for your success</span></p>
-							<ul class="style-none d-flex align-items-center social-icon">
-								<li><a href="#"><i class="bi bi-facebook"></i></a></li>
-								<li><a href="#"><i class="bi bi-twitter"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xl-2 col-md-3 col-sm-4 mb-20">
-							<h5 class="footer-title">Links</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="pricing.html">Pricing Plan</a></li>
-								<li><a href="about-us-v1.html">About us</a></li>
-								<li><a href="service-v1.html">Our services</a></li>
-							</ul>
-						</div>
-						<div class="col-xl-2 col-md-3 col-sm-4 mb-20">
-							<h5 class="footer-title">Company</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="about-us-v2.html">About us</a></li>
-								<li><a href="blog-v1.html">Blogs</a></li>
-								<li><a href="faq.html">FAQ’s</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-						<div class="col-xl-2 col-md-3 col-sm-4 mb-20">
-							<h5 class="footer-title">Support</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="contact.html">Terms of use</a></li>
-								<li><a href="contact.html">Terms & conditions</a></li>
-								<li><a href="contact.html">Privacy</a></li>
-								<li><a href="contact.html">Cookie policy</a></li>
-							</ul>
-						</div>
-					</div>
-				</div> <!-- /.inner-wrapper -->
-			</div>
 			<div class="container">
 				<div class="bottom-footer">
 					<div class="row align-items-center">
 						<div class="col-lg-5 order-lg-last mb-15">
 							<div class="footer-newsletter float-xl-end">
-								<h5 class="footer-title">Subscribe Newsletter</h5>
-								<form action="#">
-									<input type="email" placeholder="Enter your email address">
-									<button><i class="bi bi-arrow-right"></i></button>
-								</form>
+								<h5 class="footer-title">Connect with us on social</h5>
+								<ul class="style-none d-flex align-items-center social-icon">
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                </ul>
 							</div>
 						</div>
 						<div class="col-lg-7 order-lg-first mb-15">
 							<a href="index.html" class="d-none d-lg-inline-block mb-25">
-								<img src="images/logo/logo_01.svg" alt="">
+								<img src="{{ asset('assets/images/logo/smedan.png') }}" alt="">
 							</a>
+
 							<div class="d-xl-flex align-items-center">
 								<ul class="style-none bottom-nav d-flex flex-wrap justify-content-center justify-content-lg-start order-lg-last">
 									<li><a href="#">Privacy & Terms</a></li>
