@@ -105,61 +105,14 @@
 										<a class="nav-link dropdown-toggle" href="/">Home</a>
 									</li>
 									<li class="nav-item dropdown mega-dropdown-sm">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Who we are
-										</a>
-						                <ul class="dropdown-menu">
-							                <li class="row gx-1">
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="service-v1.html" class="dropdown-item"><span>Service v-1</span></a></li>
-															<li><a href="service-v2.html" class="dropdown-item"><span>Service v-2</span></a></li>
-															<li><a href="service-details.html" class="dropdown-item"><span>Service Details</span></a></li>
-															<li><a href="team-v1.html" class="dropdown-item"><span>Team V-1</span></a></li>
-															<li><a href="team-v2.html" class="dropdown-item"><span>Team V-2</span></a></li>
-															<li><a href="team-details.html" class="dropdown-item"><span>Team Details</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="about-us-v1.html" class="dropdown-item"><span>About Us V-1</span></a></li>
-															<li><a href="about-us-v2.html" class="dropdown-item"><span>About Us V-2</span></a></li>
-															<li><a href="testimonial.html" class="dropdown-item"><span>Testimonial</span></a></li>
-															<li><a href="pricing.html" class="dropdown-item"><span>Pricing</span></a></li>
-															<li><a href="faq.html" class="dropdown-item"><span>FAQ’s</span></a></li>
-															<li><a href="404.html" class="dropdown-item"><span>404 Error</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="project-v1.html" class="dropdown-item"><span>Project V-1</span></a></li>
-															<li><a href="project-v2.html" class="dropdown-item"><span>Project V-2</span></a></li>
-															<li><a href="project-v3.html" class="dropdown-item"><span>Project V-3</span></a></li>
-															<li><a href="project-details-v1.html" class="dropdown-item"><span>Project Details V-1</span></a></li>
-															<li><a href="project-details-v2.html" class="dropdown-item"><span>Project Details V-2</span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-											</li>
-						                </ul>
+							        	<a class="nav-link dropdown-toggle" href="#">Who we are</a>
+
 						            </li>
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-											data-bs-auto-close="outside" aria-expanded="false">Our Offices
-										</a>
-										<ul class="dropdown-menu">
-											<li><a href="shop-grid.html" class="dropdown-item"><span>Shop</span></a></li>
-											<li><a href="shop-details.html" class="dropdown-item"><span>Shop Details</span></a></li>
-											<li><a href="cart.html" class="dropdown-item"><span>Cart</span></a></li>
-											<li><a href="checkout.html" class="dropdown-item"><span>Checkout</span></a></li>
-										</ul>
-									</li>
+										<a class="nav-link dropdown-toggle" href="#">Our Offices</a>
+                                    </li>
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#">Programs</a>
+										<a class="nav-link dropdown-toggle" href="#">Programmes</a>
 									</li>
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#">News</a>
@@ -199,8 +152,7 @@
 							<p class="text-white lh-sm mb-35">Top-rated <span class="opacity-50">business <br> consultancy for your success</span></p>
 							<ul class="style-none d-flex align-items-center social-icon">
 								<li><a href="#"><i class="bi bi-facebook"></i></a></li>
-								<li><a href="#"><i class="bi bi-dribbble"></i></a></li>
-								<li><a href="#"><i class="bi bi-instagram"></i></a></li>
+								<li><a href="#"><i class="bi bi-twitter"></i></a></li>
 							</ul>
 						</div>
 						<div class="col-xl-2 col-md-3 col-sm-4 mb-20">
