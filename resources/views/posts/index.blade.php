@@ -30,8 +30,7 @@
                          </div>
                          <div class="col-md-12">
                             <div class="form-inner mb-30">
-                               <label>Content*</label>
-                               <textarea placeholder="Write post content"></textarea>
+                               <div id="editor"></div>
                             </div>
                          </div>
                          <div class="upload-area">
@@ -53,6 +52,7 @@
                                      </div>
                                   </div>
                                </div>
+                               <div class="upload-img-wrap"></div>
                             </div>
                          </div>
                       </div>
