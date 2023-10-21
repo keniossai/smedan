@@ -257,6 +257,7 @@
     </div>
   <script src="{{ asset('assets/js/dashboard/jquery-3.7.0.min.js') }}"></script>
   <script src="{{ asset('assets/js/dashboard/jquery-ui.js') }}"></script>
+  <script src="{{ asset('assets/vendor/ckeditor.js') }}"></script>
 
   <script src="{{ asset('assets/js/dashboard/bootstrap.min.js') }}"></script>
   <script src="{{ asset('assets/js/dashboard/popper.min.js') }}"></script>
@@ -268,6 +269,7 @@
 
   <script src="{{ asset('assets/js/dashboard/jquery.counterup.min.js')}}"></script>
   <script src="{{ asset('assets/js/dashboard/drop-zone.js') }}"></script>
+  <script src="{{ asset('assets/js/dashboard/multiple-image-upload.js') }}"></script>
 
   <script src="{{ asset('assets/js/dashboard/jquery.magnific-popup.min.js') }}"></script>
 
@@ -276,6 +278,14 @@
   <script src="{{ asset('assets/js/dashboard/jquery.fancybox.min.js') }}"></script>
 
   <script src="{{ asset('assets/js/dashboard/custom.js') }}"></script>
+
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 </body>
 
 </html>
