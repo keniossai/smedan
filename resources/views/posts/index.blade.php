@@ -56,6 +56,9 @@
                             </div>
                          </div>
                       </div>
+                      <div class="post-property-btn text-center">
+                        <button href="#" class="primary-btn3">Create Post</button>
+                      </div>
                    </form>
                 </div>
              </div>
