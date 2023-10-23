@@ -20,17 +20,18 @@
                    <div class="add-property-form-title">
                       <h6>Post Information</h6>
                    </div>
-                   <form>
+                   <form method="POST" action="{{ route('post.store') }}" enctype="multipart/form-data" >
+                    @csrf
                       <div class="row">
                          <div class="col-md-12">
                             <div class="form-inner mb-30">
                                <label>Post Title*</label>
-                               <input type="text" placeholder="Type post title">
+                               <input type="text" name="title" placeholder="Type post title" />
                             </div>
                          </div>
                          <div class="col-md-12">
                             <div class="form-inner mb-30">
-                               <div id="editor"></div>
+                               <textarea name="content" id="editor" rows="4" ></textarea>
                             </div>
                          </div>
                          <div class="upload-area">
@@ -38,14 +39,11 @@
                                <div class="row g-4 mb-25">
                                   <div class="col-lg-6">
                                      <div class="upload-img-field">
-                                        <div class="upload-field-title">
-                                           <h6>Image</h6>
-                                        </div>
                                         <div class="upload-btn-box">
                                            <label class="upload-btn">
                                            <img src="assets/img/dashboard/icon/upload-img-field-icon.svg" alt="">
                                            Upload images
-                                           <input type="file" multiple="" data-max_length="20" class="upload-inputfile">
+                                           <input type="file" name="image"  class="upload-inputfile" />
                                            </label>
                                            <p>Max.size 4 mb, jpeg or png *</p>
                                         </div>
@@ -56,9 +54,9 @@
                             </div>
                          </div>
                       </div>
-                      <div class="post-property-btn text-center">
-                        <button href="#" class="primary-btn3">Create Post</button>
-                      </div>
+                        <div class="post-property-btn text-center">
+                          <button type="submit" class="primary-btn3">Create Post</button>
+                        </div>
                    </form>
                 </div>
              </div>
@@ -67,3 +65,4 @@
     </div>
  </div>
 @endsection
+
