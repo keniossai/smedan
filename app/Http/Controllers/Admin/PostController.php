@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
+use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
+use App\Http\Controllers\Controller;
 
 class PostController extends Controller
 {
@@ -28,7 +30,37 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // dd($request->all());
+        $this->validate($request, [
+            'title' => 'required|unique:posts,title',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'content' => 'required',
+        ]);
+
+
+        $post = Post::create([
+            'title' => $request->title,
+            'image' => 'image.jpg',
+            'content' => $request->content,
+            'published_at' => Carbon::now(),
+        ]);
+        if($request->hasfile('image'))
+            {
+                $name = rand(111,99999). '.' . $request->image->getClientOriginalExtension();
+                $path = public_path() .'/storage/post';
+                $request->image->move($path, $name);
+                $path = $name;
+                $post->save();
+            }
+        // if($request->hasFile('image')){
+        //     $image = $request->image;
+        //     $image_new_name = time() . '.' . $image->getClientOriginalExtension();
+        //     $image->storeAs('public/posts', $image_new_name);
+        //     $post->image = '/public/posts/' . $image_new_name;
+        //     $post->save();
+        // }
+        return redirect()->back();
+
     }
 
     /**
