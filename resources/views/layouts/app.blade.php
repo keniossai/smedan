@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/dashboard/slick-theme.css') }}" />
     <link href="{{ asset('assets/css/boxicons.min.css') }}" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('assets/css/dashboard/style.css') }}" />
+    
     <title>Admin Dashboard</title>
   </head>
   <header class="header-area style-1 dashboard-header">
