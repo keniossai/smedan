@@ -116,62 +116,50 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td data-label="Property Info">
-                    <div class="property-info-wrapper">
-                      <div class="property-info-img">
-                        <img
-                          src="assets/img/dashboard/property-info-img1.png"
-                          alt
-                        />
-                      </div>
-                      <div class="property-info-content">
-                        <div class="location">
-                          <a href="property-listing-left-sidebar.html"
-                            ><i class="bi bi-geo-alt"></i> Panama City</a
-                          >
+                @foreach ($posts as $post)
+                    <tr>
+                        <td data-label="Property Info">
+                        <div class="property-info-wrapper">
+                            <div class="property-info-img">
+                            <img
+                                src="{{ asset('storage/post/'.$post->image) }}"
+                                alt
+                            />
+                            </div>
+                            <div class="property-info-content">
+                            <h6>
+                                <a href="property-listing-left-sidebar.html"
+                                >{{ $post->title }}</a
+                                >
+                            </h6>
+
+                            </div>
                         </div>
-                        <h6>
-                          <a href="property-listing-left-sidebar.html"
-                            >Willow Creek Residence</a
-                          >
-                        </h6>
-                        <a
-                          href="poperty-deatils1.html"
-                          class="view-details"
-                        >
-                          <img
-                            src="assets/img/dashboard/icon/view-details-icon.svg"
-                            alt
-                          />
-                          View Details
-                        </a>
-                      </div>
-                    </div>
-                  </td>
-                  <td data-label="When Added" class="table-product">
-                    <span>02 April, 2023</span>
-                  </td>
-                  <td data-label="Favourite">
-                    <span>100 person</span>
-                  </td>
-                  <td data-label="Action">
-                    <ul class="action-buttons">
-                      <li>
-                        <img
-                          src="{{ asset('assets/images/icon/action-edit-btn.svg') }}"
-                          alt
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="{{ asset('assets/images/icon/action-delete-btn.svg') }}"
-                          alt
-                        />
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
+                        </td>
+                        <td data-label="When Added" class="table-product">
+                        <span>{{ Str::limit(strip_tags($post->content), 30) }}</span>
+                        </td>
+                        <td data-label="Favourite">
+                        <span>100 person</span>
+                        </td>
+                        <td data-label="Action">
+                        <ul class="action-buttons">
+                            <li>
+                            <img
+                                src="{{ asset('assets/images/icon/action-edit-btn.svg') }}"
+                                alt
+                            />
+                            </li>
+                            <li>
+                            <img
+                                src="{{ asset('assets/images/icon/action-delete-btn.svg') }}"
+                                alt
+                            />
+                            </li>
+                        </ul>
+                        </td>
+                    </tr>
+                @endforeach
               </tbody>
             </table>
             <div class="pagination-area">
