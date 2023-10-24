@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/dashboard/slick-theme.css') }}" />
     <link href="{{ asset('assets/css/boxicons.min.css') }}" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('assets/css/dashboard/style.css') }}" />
-    
+
     <title>Admin Dashboard</title>
   </head>
   <header class="header-area style-1 dashboard-header">
@@ -53,7 +53,7 @@
       <div class="dashboard-sidebar-menu">
         <ul>
           <li class="active">
-            <a href="dashboard.html">
+            <a href="dashboard">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -132,7 +132,7 @@
             </a>
           </li>
           <li>
-            <a href="dashboard-add-property.html">
+            <a href="create-post">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -152,7 +152,7 @@
             </a>
           </li>
           <li>
-            <a href="dashboard-faqs.html">
+            <a href="create-post">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
