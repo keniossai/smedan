@@ -6,6 +6,7 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use App\Http\Controllers\Controller;
+use Intervention\Image\Facades\Image;
 
 class PostController extends Controller
 {
@@ -14,7 +15,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('posts.index');
+        return view('post.index');
     }
 
     /**
@@ -22,7 +23,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.post.create');
     }
 
     /**
@@ -31,27 +32,22 @@ class PostController extends Controller
     public function store(Request $request)
     {
         // dd($request->all());
-        $this->validate($request, [
-            'title' => 'required|unique:posts,title',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
+
+        $request->validate([
+            'title' => 'required',
             'content' => 'required',
-        ]);
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+          ]);
 
+          $imageName = rand(111,99999) . '.' . $request->image->extension();
+          $request->image->storeAs('/storage/post', $imageName);
+          $request->image->move(public_path('storage/post/'), $imageName);
 
-        $post = Post::create([
-            'title' => $request->title,
-            'image' => 'image.jpg',
-            'content' => $request->content,
-            'published_at' => Carbon::now(),
-        ]);
-        if($request->hasfile('image'))
-            {
-                $name = rand(111,99999). '.' . $request->image->getClientOriginalExtension();
-                $path = public_path() .'/storage/post';
-                $request->image->move($path, $name);
-                $path = $name;
-                $post->save();
-            }
+          $data = ['title' => $request->title, 'content' => $request->content, 'image' => $imageName];
+
+          Post::create($data);
+
         // if($request->hasFile('image')){
         //     $image = $request->image;
         //     $image_new_name = time() . '.' . $image->getClientOriginalExtension();
